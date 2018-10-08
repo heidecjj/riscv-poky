@@ -18,7 +18,7 @@ IMAGE_INSTALL += "gcc binutils glibc glibc-dev libgcc libgcc-dev libstdc++ libst
 #IMAGE_INSTALL += "openssh"
 
 # Parallel Neuro Simulation
-IMAGE_INSTALL += "protobuf protobuf-native cmake boost"
+IMAGE_INSTALL += "protobuf cmake boost"
 
 IMAGE_LINGUAS = " "
 
