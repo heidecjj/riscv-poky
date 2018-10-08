@@ -1,6 +1,6 @@
 require recipes-devtools/qemu/qemu.inc
 
-SRC_URI = "gitsm://github.com/riscv/riscv-qemu.git;destsuffix=${S}"
+SRC_URI = "gitsm://github.com/riscv/riscv-qemu.git;branch=glibc-tests;destsuffix=${S}"
 SRCREV_pn-qemu-native = "9bfcd4717b3010eb7efc50057232e92ecb741cac"
 SRCREV_pn-nativesdk-qemu = "9bfcd4717b3010eb7efc50057232e92ecb741cac"
 
